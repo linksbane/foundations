@@ -1,0 +1,37 @@
+.footer {
+    background-color: #222222;
+    height: 169px;
+}
+
+.footer > .columns-wrapper {
+    background-color: #838383;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer > .columns-wrapper > .column {
+    background-color: #323232;
+    padding: 0px 62px;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer > .columns-wrapper > .column p {
+    color: #ffffff;
+}
+
+.footer > .columns-wrapper > .column :nth-child(1){
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.footer > .columns-wrapper > .column :nth-child(2){
+    margin-left: 5px;
+    font-family: 'Alata', sans-serif;
+    font-size: 3em;
+    font-weight: 900;
+}

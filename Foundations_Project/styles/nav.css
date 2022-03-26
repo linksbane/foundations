@@ -1,0 +1,97 @@
+.navigation-wrapper {
+    height: 100px;
+    background-color: #000000;
+    /* Flexbox container */
+    display: flex;
+    justify-content: space-between;
+}
+
+/* left column styles */
+.navigation-wrapper > .left-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    margin-left: 30px;
+}
+
+.navigation-wrapper > .left-column > .nav-logo img {
+    width: 250px;
+    height: 100%;
+}
+
+.navigation-wrapper > .left-column > .explore-wrapper {
+    display: grid;
+    grid-template-rows: 2fr;
+    gap: 5px;
+}
+
+.navigation-wrapper > .left-column > .explore-wrapper > .explore {
+    color: #cfc539;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.navigation-wrapper > .left-column > .explore-wrapper > .explore-link-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.navigation-wrapper > .left-column > .explore-wrapper > .explore-link-wrapper > .explore-link a {
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.navigation-wrapper > .left-column > .explore-wrapper > .explore-link-wrapper > .spark-dropdown a {
+    margin-left: 15px;
+    color: #838383;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.navigation-wrapper > .left-column > .explore-wrapper > .explore-link-wrapper > .spark-dropdown i {
+    margin-left: 10px;
+    font-size: .75rem;
+}
+
+/* right column styles */
+.navigation-wrapper > .right-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    margin-right: 30px;
+}
+
+.navigation-wrapper > .right-column > .nav-btn {
+    background-color: #323232;
+    padding: 20px 25px;
+    border-radius: 4px;
+    outline: none;
+}
+
+.navigation-wrapper > .right-column > .nav-btn a {
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navigation-wrapper > .right-column > .nav-btn  i {
+    margin-left: 5px;
+    color: #0aaf49;
+}
+
+.navigation-wrapper > .right-column > .search-icon {
+    padding: 0px 5px;
+}
+
+.navigation-wrapper > .right-column > .search-icon i {
+    color: #323232;
+    font-size: 2.25rem;
+}

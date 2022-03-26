@@ -1,0 +1,94 @@
+.info-section {
+    background-color: #323232;
+    height: 700px;
+    box-shadow: inset -108px -2px 77px -35px rgba(0,0,0,0.75);
+}
+
+.info-section > .info-squares-wrapper {
+    margin-left: 100px;
+    height: 620px;
+}
+
+.info-section > .info-squares-wrapper > .squares {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-section > .info-squares-wrapper > .squares > .info-square {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 750px;
+}
+
+.info-section > .info-squares-wrapper > .squares > .info-square h1 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.info-section > .info-squares-wrapper > .squares > .info-square p {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.info-section > .info-squares-wrapper > .squares > .info-square > .info-btns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+}
+
+.info-section > .info-squares-wrapper > .squares > .info-square > .info-btns > .sign-up-btn {
+    background-color: #0aaf49;
+    padding: 20px 25px;
+    border-radius: 4px;
+    outline: none;
+    text-align: center;
+}
+
+.info-section > .info-squares-wrapper > .squares > .info-square > .info-btns > .sign-up-btn a {
+    color: #000000;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.info-section > .info-squares-wrapper > .squares > .info-square > .info-btns > .learn-more-btn {
+    background-color: #1f1f1f;
+    padding: 20px 25px;
+    border-radius: 4px;
+    outline: none;
+    text-align: center;
+}
+
+.info-section > .info-squares-wrapper > .squares > .info-square > .info-btns > .learn-more-btn a {
+    color: #ffffff;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.info-section > .info-squares-wrapper > .squares > .img-square {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 0px;
+}
+
+.info-section > .info-squares-wrapper > .squares > .img-square p {
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.info-section > .info-squares-wrapper > .squares > .img-square a {
+    color: #3fc0e0;
+    font-size: 25px;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.info-section > .info-squares-wrapper > .squares > .img-square img {
+    height: 500px;
+    width: 100%;
+    box-shadow: -16px -10px 17px -8px rgba(0,0,0,0.75);
+}

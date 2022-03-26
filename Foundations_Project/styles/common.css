@@ -1,0 +1,13 @@
+body {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin: 0px;
+}
+
+.spacer40 {
+    height: 40px;
+    width: 100%;
+}
+
+h1::after {
+    content: "👋🏻";
+}

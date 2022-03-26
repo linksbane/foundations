@@ -1,0 +1,81 @@
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10px;
+}
+
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    margin-bottom: 10px;
+}
+
+.gridTwo > .cellOne {
+    background-color: red;
+}
+
+.gridTwo > .cellTwo {
+    background-color: blue;
+}
+
+.gridTwo > .cellThree {
+    background-color: yellow;
+}
+
+.gridThree {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    height: 300px;
+    width: 500px;
+    background-color: #858585;
+    margin-bottom: 10px;
+}
+
+.gridThree > .cellTwo img {
+    height: 225px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.gridFour {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: green;
+    margin-bottom: 10px;
+}
+
+.gridFour > #rowTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridFive {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: #858585;
+    margin-bottom: 10px;
+}
+
+.gridFive > .cellTwo {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.gridFive > .cellTwo img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.gridSix {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 500px;
+    background-color: #858585;
+}
+
+.gridSix > .cellTwo {
+    font-family: 'Permanent Marker', cursive;
+}
